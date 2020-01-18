@@ -1,7 +1,7 @@
 # get-bank-of-norway-exr
 Some simple scripts showing how to extract the latest exchange rates from the bank of Norway using Requests and Beautifulsoup4.
 
-How use it:
+How to use it:
 ```python3
 python3 get_exr_data.py
 ```
