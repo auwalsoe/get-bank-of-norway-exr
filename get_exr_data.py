@@ -20,4 +20,4 @@ for  serie in EXR_SOUP.find_all('Series'):
                                   obs_value=serie.Obs.get('OBS_VALUE')))
 
 for currency in CURRENCIES:
-    print("{} : {}".format(currency.base_cur, currency.obs_value))
+    currency.simple_print()
